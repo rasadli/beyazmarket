@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyaz Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="./images/logo_2.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo_2.png" alt="Beyaz Market Logo" class="logo">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-overlay">
+            <h1>Welcome to Beyaz Market</h1>
+            <p>Fresh. Local. Honest.</p>
+        </div>
+    </section>
+
+    <!-- <section class="about">
+        <h2>About Us</h2>
+        <p>Beyaz Market is a local grocery store dedicated to providing fresh, organic, and high-quality products to our
+            community. We believe in sustainable practices and personalized service.</p>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <ul>
+            <li>Fresh Fruits & Vegetables</li>
+            <li>Dairy & Eggs</li>
+            <li>Organic Products</li>
+            <li>Local Specialties</li>
+        </ul>
+    </section> -->
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-container">
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.367473566087!2d8.782895976172062!3d52.20036925984551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba6d56c42ce79b%3A0xb2f8d896193fc69d!2sHerforder%20Str.%201B-3%2C%2032545%20Bad%20Oeynhausen%2C%20Germany!5e0!3m2!1sen!2slv!4v1750413584708!5m2!1sen!2slv"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="images/logo_3.png" alt="Beyaz Market Logo" class="footer-logo">
+            </div>
+
+            <div class="footer-col">
+                <p><strong>Contact Us</strong></p>
+                <p><i class="fas fa-map-marker-alt"></i> Herforderstraße 1b - 3, 32545 Bad Oeynhausen</p>
+                <p><i class="fas fa-phone-alt"></i> +90 123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> Info@beyazmarket.de</p>
+            </div>
+
+
+            <div class="footer-col">
+                <p><strong>Follow Us</strong></p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Beyaz Market. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>

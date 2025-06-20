@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #99c7fe;
+    color: white;
+    /* padding: 1.5em 2em; */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Home */
+
+.home {
+    height: 90vh;
+    background: url('../images/footer_bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    /* dark overlay */
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+
+/* Contact */
+.contact {
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-container form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-container button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #1e3f66;
+}
+
+.map-container {
+    flex: 1;
+    min-width: 300px;
+    height: 400px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background: url("../images/footer_bg.jpg");
+    background-position: top center;
+    background-size: cover;
+    color: black;
+    padding: 2em 1em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-col i {
+    margin-right: 8px;
+    color: #99c7fe;
+}
+
+.footer-col p {
+    margin: 0.5em 0;
+}
+
+.footer-col strong {
+    font-size: 20px;
+}
+
+.social-icons a {
+    color: #99c7fe;
+    margin-right: 15px;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #3b82f6;
+    transform: scale(1.2);
+}
+
+.social-icons a:nth-child(2) i {
+    font-size: 26px;
+    /* make second icon (Instagram) larger */
+}
+
+
+footer .copyright {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 14px;
+    color: #142850;
+    font-weight: 600;
+}
