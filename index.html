@@ -2,26 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyaz Market</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="./images/logo_2.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="icon" href="./images/logo_2.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
     <header>
         <div class="header-container">
-            <img src="images/logo_2.png" alt="Beyaz Market Logo" class="logo">
+            <img src="images/logo_2.png" alt="Beyaz Market Logo" class="logo" />
             <nav class="navbar">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
+                <a href="#products">Products</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
@@ -29,84 +30,173 @@
 
     <section class="home" id="home">
         <div class="home-overlay">
-            <h1>Welcome to Beyaz Market</h1>
-            <p>Fresh. Local. Honest.</p>
+            <div class="home-content">
+                <h1>Welcome to <span>Beyaz Market</span></h1>
+                <p>The Taste of the World — Where Quality Meets Culture.</p>
+                <a href="#products" class="home-btn"><i class="fas fa-shopping-basket"></i> Explore Our Products</a>
+            </div>
         </div>
     </section>
 
-    <!-- <section class="about">
+    <section class="about" id="about">
         <h2>About Us</h2>
-        <p>Beyaz Market is a local grocery store dedicated to providing fresh, organic, and high-quality products to our
-            community. We believe in sustainable practices and personalized service.</p>
+
+        <h3>Your Global Market, Right Here in Bad Oeynhausen</h3>
+        <p>
+            <strong>Beyaz Market</strong> isn’t just a store – it's a journey through the world’s kitchens. We bring the
+            taste of the world directly to your home with a handpicked selection of international flavors.
+        </p>
+
+        <div class="highlight-box">
+            <p><i class="fas fa-heart"></i> Family-owned. Community-driven. Quality-focused.</p>
+        </div>
+
+        <h3>What Makes Us Special?</h3>
+        <ul class="icon-list">
+            <li><i class="fas fa-apple-alt"></i> Fresh, seasonal fruits & vegetables</li>
+            <li><i class="fas fa-drumstick-bite"></i> Carefully sourced Halal meat</li>
+            <li><i class="fas fa-globe"></i> International pantry – spices, teas, sweets & more</li>
+            <li><i class="fas fa-tags"></i> Fair prices & rotating weekly deals</li>
+        </ul>
+
+        <h3>We’re Here for You</h3>
+        <p>
+            We believe in clean aisles, fresh food, and a friendly smile. Shopping at Beyaz Market means you’ll always
+            find helpful service and personal recommendations – just like family.
+        </p>
+
+        <blockquote>
+            “Whether you're craving the taste of home or something new and bold — we have it waiting for you.”
+        </blockquote>
     </section>
 
-    <section class="products">
+    <section class="products" id="products">
         <h2>Our Products</h2>
-        <ul>
-            <li>Fresh Fruits & Vegetables</li>
-            <li>Dairy & Eggs</li>
-            <li>Organic Products</li>
-            <li>Local Specialties</li>
-        </ul>
-    </section> -->
+        <div class="product-grid">
+            <div class="product-card">
+                <i class="fas fa-apple-alt"></i>
+                <h3>Fruits</h3>
+                <p>Fresh and juicy fruits from around the world for a healthy diet.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-carrot"></i>
+                <h3>Vegetables</h3>
+                <p>A wide selection of crisp vegetables for delicious dishes.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-drumstick-bite"></i>
+                <h3>Meat</h3>
+                <p>High-quality Halal meat for a special culinary experience.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-fish"></i>
+                <h3>Fish</h3>
+                <p>Fresh fish from the sea for a varied and healthy meal.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-egg"></i>
+                <h3>Poultry</h3>
+                <p>Tender poultry in top quality for tasty dishes.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-bread-slice"></i>
+                <h3>Bakery</h3>
+                <p>Freshly baked goods every day for a great start to the day.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-wine-bottle"></i>
+                <h3>Drinks</h3>
+                <p>Refreshing beverages and a wide range of thirst quenchers.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-soap"></i>
+                <h3>Household</h3>
+                <p>Practical products to make everyday life easier.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-candy-cane"></i>
+                <h3>Sweets</h3>
+                <p>Delicious sweets for indulgent moments.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-cheese"></i>
+                <h3>Dairy</h3>
+                <p>Fresh dairy products for a balanced, healthy lifestyle.</p>
+            </div>
+        </div>
+    </section>
+
+
 
     <section class="contact" id="contact">
         <h2>Contact Us</h2>
 
+        <div class="highlight-box">
+            <p><i class="fas fa-handshake"></i> Whether you're a customer, a partner, or just curious — we’d love to
+                hear from you!</p>
+        </div>
+
+        <h3>How Can We Help You?</h3>
+        <ul class="icon-list">
+            <li><i class="fas fa-question-circle"></i> Learn more about our product range</li>
+            <li><i class="fas fa-comments"></i> Share your feedback, ideas, or praise</li>
+            <li><i class="fas fa-briefcase"></i> Apply for a job at Beyaz Market</li>
+            <li><i class="fas fa-utensils"></i> Place wholesale orders for your restaurant or café</li>
+        </ul>
+
+        <h3>Reach Us Easily</h3>
         <div class="contact-container">
             <form action="https://formspree.io/f/your-form-id" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <label for="name"><i class="fas fa-user"></i> Name:</label>
+                <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="_replyto" required>
+                <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                <input type="email" id="email" name="_replyto" required />
 
-                <label for="message">Message:</label>
+                <label for="message"><i class="fas fa-comment-dots"></i> Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <button type="submit">Send Message</button>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
             </form>
 
             <div class="map-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.367473566087!2d8.782895976172062!3d52.20036925984551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba6d56c42ce79b%3A0xb2f8d896193fc69d!2sHerforder%20Str.%201B-3%2C%2032545%20Bad%20Oeynhausen%2C%20Germany!5e0!3m2!1sen!2slv!4v1750413584708!5m2!1sen!2slv"
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
 
-
     <footer>
         <div class="footer-container">
             <div class="footer-col">
-                <img src="images/logo_3.png" alt="Beyaz Market Logo" class="footer-logo">
+                <img src="images/logo_3.png" alt="Beyaz Market Logo" class="footer-logo" />
+                <p class="tagline">This is how the world tastes</p>
             </div>
 
             <div class="footer-col">
-                <p><strong>Contact Us</strong></p>
-                <p><i class="fas fa-map-marker-alt"></i> Herforderstraße 1b - 3, 32545 Bad Oeynhausen</p>
-                <p><i class="fas fa-phone-alt"></i> +90 123 456 7890</p>
-                <p><i class="fas fa-envelope"></i> Info@beyazmarket.de</p>
+                <p class="footer-title">Contact Us</p>
+                <ul class="footer-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Herforderstraße 1b - 3, 32545 Bad Oeynhausen</li>
+                    <li><i class="fas fa-phone-alt"></i> +90 123 456 7890</li>
+                    <li><i class="fas fa-envelope"></i> info@beyazmarket.de</li>
+                </ul>
             </div>
 
-
             <div class="footer-col">
-                <p><strong>Follow Us</strong></p>
+                <p class="footer-title">Follow Us</p>
                 <div class="social-icons">
-                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
-
             </div>
         </div>
-        <p class="copyright">&copy; 2025 Beyaz Market. All rights reserved.</p>
+        <hr />
+        <p class="copyright">
+            &copy; 2025 Beyaz Market. All rights reserved.
+        </p>
     </footer>
-
 
 </body>
 
