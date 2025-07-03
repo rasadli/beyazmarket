@@ -43,7 +43,7 @@ header {
 
 .home {
     height: 86vh;
-    background: url('../images/footer_bg.jpg') no-repeat center center/cover;
+    /* background: url('../images/footer_bg.jpg') no-repeat center center/cover; */
     display: flex;
     align-items: center;
     justify-content: center;
