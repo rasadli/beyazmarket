@@ -39,6 +39,29 @@ header {
     text-decoration: underline;
 }
 
+.language-select {
+    padding: 8px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    outline: none;
+    margin-left: 20px;
+}
+
+.language-select:hover {
+    border-color: #999;
+}
+
+.language-select:focus {
+    border-color: #333;
+}
+
 /* Home Section */
 
 .home {
@@ -459,5 +482,9 @@ footer .copyright {
 
     .home-content p {
         font-size: 20px;
+    }
+
+    #language-switcher {
+        padding-top: 10px;
     }
 }
