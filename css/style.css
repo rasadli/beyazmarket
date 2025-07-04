@@ -485,6 +485,7 @@ footer .copyright {
     }
 
     #language-switcher {
-        padding-top: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
     }
 }
