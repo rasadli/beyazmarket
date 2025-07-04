@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyaz Market</title>
+    <link rel="preload" as="image" href="images/home_bg.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="icon" href="./images/logo_2.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo_2.png" alt="Beyaz Market Logo" class="logo" />
+            <nav class="navbar">
+                <a href="#home">Ana Sayfa</a>
+                <a href="#about">Hakkımızda</a>
+                <a href="#products">Ürünler</a>
+                <a href="#contact">İletişim</a>
+            </nav>
+
+            <select id="language-switcher" onchange="changeLanguage()" class="language-select">
+                <option value="index.html">Deutsch</option>
+                <option value="index_en.html">English</option>
+                <option value="index_tr.html" selected>Türkçe</option>
+            </select>
+
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-overlay">
+            <div class="home-content">
+                <h1><span>Beyaz Market</span>'e Hoş Geldiniz</h1>
+                <p>Dünyanın Lezzeti – Kalite ile Kültürün Buluştuğu Yer.</p>
+                <a href="#products" class="home-btn"><i class="fas fa-shopping-basket"></i> Ürünlerimizi Keşfedin</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Hakkımızda</h2>
+
+        <h3>Beyaz Market – Dünya Böyle Tat Verir</h3>
+        <p>
+            <strong>Beyaz Market</strong>'e hoş geldiniz! Bad Oeynhausen’in kalbinde yer alan uluslararası marketiniz –
+            burada çeşitlilik kaliteyle buluşur, lezzet evinizde gibi hissettirir.
+            <em>“Dünya böyle tat verir”</em> sloganımızla, yıllardır dünyanın dört bir yanından mutfak hazinelerini
+            doğrudan sofralarınıza getiriyoruz.
+        </p>
+
+        <p>
+            Aile işletmesi olarak sıcaklık, samimiyet ve güven bizim için her şey demek. Şirin kaplıca şehri Bad
+            Oeynhausen’in dinamik topluluğunun bir parçası olarak, siz değerli müşterilerimize her gün taze ve kaliteli
+            ürünler sunmak bizim için bir onurdur.
+        </p>
+
+        <div class="highlight-box">
+            <p><i class="fas fa-heart"></i> Aile işletmesi. Toplumla iç içe. Kalite odaklı.</p>
+        </div>
+
+        <h3>Bizde Neler Var?</h3>
+        <ul class="icon-list">
+            <li><i class="fas fa-apple-alt"></i> Taptaze meyve ve sebzeler – mevsiminde, lezzetli ve dolgun.</li>
+            <li><i class="fas fa-drumstick-bite"></i> Özenle seçilmiş, güvenilir Halal et çeşitleri.</li>
+            <li><i class="fas fa-globe"></i> Uluslararası lezzetler, baharatlar, çaylar, tatlılar ve temel mutfak
+                ürünleri – otantik yemekler ve özel anlar için.</li>
+            <li><i class="fas fa-tags"></i> Uygun fiyatlar ve düzenli kampanyalar ile alışveriş keyfi.</li>
+        </ul>
+
+        <h3>Size Yardımcı Olmak İçin Buradayız</h3>
+        <p>
+            Tazelik, hijyen ve müşteri memnuniyeti bizim için önceliktir.
+            Mağazamızda isteklerinize değer verilir, ayrıca size özel öneriler ve rehberlik sunmaktan mutluluk duyarız.
+        </p>
+        <p>
+            Aile işletmesi olarak güvenin, kalitenin ve samimi bir ortamın ne kadar önemli olduğunu biliyoruz – Beyaz
+            Market'te her ziyaretinizde sizi bunlar bekliyor.
+        </p>
+
+        <blockquote>
+            “Memleketinizin geleneksel lezzetlerini mi arıyorsunuz, yoksa yeni tatlar mı keşfetmek istiyorsunuz? Hepsi
+            burada sizi bekliyor.”
+        </blockquote>
+
+        <p>
+            Beyaz Market, Bad Oeynhausen ve çevresindeki en zengin uluslararası gıda çeşitliliğine sahip adresinizdir.
+        </p>
+        <p>
+            Gelin ve ilham alın – işte dünyanın lezzeti böyle olur!
+        </p>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Ürünlerimiz</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <i class="fas fa-apple-alt"></i>
+                <h3>Meyveler</h3>
+                <p>Dünya genelinden taze, sulu meyveler sağlıklı beslenme için.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-carrot"></i>
+                <h3>Sebzeler</h3>
+                <p>Lezzetli tarifler için çeşitli ve taptaze sebzeler.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-drumstick-bite"></i>
+                <h3>Et</h3>
+                <p>Yüksek kaliteli Helal et ürünleriyle mutfaklara lezzet katın.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-fish"></i>
+                <h3>Balık</h3>
+                <p>Sağlıklı ve çeşitli yemekler için taze deniz ürünleri.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-egg"></i>
+                <h3>Tavuk</h3>
+                <p>Lezzetli yemekler için kaliteli, yumuşacık tavuk ürünleri.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-bread-slice"></i>
+                <h3>Fırın</h3>
+                <p>Güne lezzetli başlangıç için günlük taze ekmek ve çörekler.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-wine-bottle"></i>
+                <h3>İçecekler</h3>
+                <p>Serinletici içecekler ve geniş ürün yelpazesi.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-soap"></i>
+                <h3>Ev Ürünleri</h3>
+                <p>Günlük hayatı kolaylaştıran pratik ev ürünleri.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-candy-cane"></i>
+                <h3>Tatlılar</h3>
+                <p>Tatlı krizleriniz için nefis atıştırmalıklar.</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-cheese"></i>
+                <h3>Süt Ürünleri</h3>
+                <p>Dengeli ve sağlıklı yaşam için taze süt ürünleri.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>İletişim</h2>
+
+        <div class="highlight-box">
+            <p><i class="fas fa-handshake"></i> Müşteri, iş ortağı ya da sadece meraklı olun – sizden haber almak
+                isteriz!</p>
+        </div>
+
+        <h3>Size nasıl yardımcı olabiliriz?</h3>
+        <ul class="icon-list">
+            <li><i class="fas fa-question-circle"></i> Ürün yelpazemiz hakkında daha fazla bilgi alın</li>
+            <li><i class="fas fa-comments"></i> Geri bildirim, öneri veya teşekkür paylaşın</li>
+            <li><i class="fas fa-briefcase"></i> Beyaz Market'te çalışmak için başvuru yapın</li>
+            <li><i class="fas fa-utensils"></i> Kafe ya da restoranınız için toptan sipariş verin</li>
+        </ul>
+
+        <h3>Bize Ulaşın</h3>
+        <div class="contact-container">
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name"><i class="fas fa-user"></i> Ad Soyad:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email"><i class="fas fa-envelope"></i> E-posta:</label>
+                <input type="email" id="email" name="_replyto" required />
+
+                <label for="message"><i class="fas fa-comment-dots"></i> Mesajınız:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit"><i class="fas fa-paper-plane"></i> Gönder</button>
+            </form>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.367473566087!2d8.782895976172062!3d52.20036925984551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba6d56c42ce79b%3A0xb2f8d896193fc69d!2sHerforder%20Str.%201B-3%2C%2032545%20Bad%20Oeynhausen%2C%20Germany!5e0!3m2!1sen!2slv!4v1750413584708!5m2!1sen!2slv"
+                    width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="images/logo_3.png" alt="Beyaz Market Logo" class="footer-logo" />
+                <p class="tagline">Dünya böyle tat verir</p>
+            </div>
+
+            <div class="footer-col">
+                <p class="footer-title">İletişim</p>
+                <ul class="footer-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Herforderstraße 1b - 3, 32545 Bad Oeynhausen</li>
+                    <li><i class="fas fa-phone-alt"></i> +49 5731 123456</li>
+                    <li><i class="fas fa-envelope"></i> info@beyazmarket.de</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <p class="footer-title">Bizi Takip Edin</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright">
+            &copy; 2025 Beyaz Market. Tüm hakları saklıdır.
+        </p>
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
