@@ -43,7 +43,7 @@ header {
 
 .home {
     height: 86vh;
-    /* background: url('../images/footer_bg.jpg') no-repeat center center/cover; */
+    background: url('../images/home_bg.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ header {
 }
 
 .home-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     padding: 60px 30px;
     border-radius: 12px;
     width: 100%;
@@ -68,9 +68,9 @@ header {
     font-weight: 700;
 }
 
-.home-content h1 span {
+/* .home-content h1 span {
     color: #99c7fe;
-}
+} */
 
 .home-content p {
     font-size: 20px;
